@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="scienceumc.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scienceumc.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <div class="topnav">
+        <nav><a href="index.html"><i class="material-icons">home</i>HOME</a></nav>
+        <nav><a href="events.html">EVENTS</a></nav>
+        <nav><a href="registration.html">REGISTRATION</a></nav>
+        <nav><a href="about.html">ABOUT US</a></nav>
+        <nav><a href="contact.html">CONTACT US</a></nav>
+    </div>
+
+    <div class="header">
+        <span><img src="/img/logo1.png" alt="logo"></span><br><br>
+        <span class="quote"> "Understanding Nature"</span>
+    </div>
+
+    <div class="contact">
+        <span style="color: white;">Send us messages</span> <br> 
+        <div class="description" style="color: white;">
+            <i class="material-icons">place</i> Our location <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.402443286577!2d112.58684021477912!3d-7.957296294268608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78825bc65e176b%3A0x954b33ee83283be2!2sUniversitas%20Ma%20Chung!5e0!3m2!1sid!2sid!4v1602946592129!5m2!1sid!2sid" width="400" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><br>
+            <i class="material-icons">phone</i> Phone: +6285123456789 <br>
+            <i class="material-icons">mail</i> Mail: ukmscience@machung.ac.id <br>
+        </div>
+        <form action=""  >
+            <input  type="text" id="nama2" placeholder="Name" required name="Name">
+            <input  type="text" id="nim2" placeholder="Nim" required name="Nim">
+            <input  type="text" id="pesan" placeholder="Message" required name="Message">
+            <br>
+            <input type="submit" onclick="send_msg()"  id="send" value="Send Message">
+        </form>
+    </div>
+    <div class="footer" style="margin-top: 600px;">
+        <div class="footer-desc">
+            <span>Copyright 2020 © by SCIENCE CLUB UMC. all rights reserved.</span>
+        </div>
+    </div>
+</body>
+</html>

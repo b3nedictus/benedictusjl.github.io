@@ -1,0 +1,254 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background: url(/img/forrest.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#home{
+  color: black;
+}
+
+.header{
+    background-image: url(/img/b4.jpg);
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;  
+    background-size: cover;
+    text-align: center;
+    color: white; 
+}
+
+.header img{
+  width: 300px;
+  height: 300px;
+  float: left;
+
+  
+}
+.about,.home,.contact{
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: solid;
+  font-weight: bold;
+}
+.events{
+  text-align: center;
+  font-size: 40px;
+  text-decoration: solid;
+  font-weight: bold;
+  
+}
+
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  margin: 40px;
+  background-color: snow;
+  color:black
+}
+
+.gallery-act {
+  border: 1px solid #ccc;
+  float: left;
+  width: 20%;
+  margin: 32px;
+  background-color: snow;
+  color:black
+}
+
+.gallery-act img {
+  width: 100%;
+  height: 200px;
+}
+
+.gallery:hover ,.gallery-act:hover{
+  border: 1px solid #777;
+  opacity: 0.8;
+}
+
+.gallery img {
+  width: 100%;
+  height: 250px;
+}
+
+#more1,#more2,#more3,#more4{
+  display: none;
+}
+.description {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: normal;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer-desc{
+  text-decoration:solid;
+  font-weight:bolder;
+  font-size: 25px;
+  text-align: center;
+  padding: 40px;
+
+}
+.home-phrase{
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+.topnav {
+  overflow: hidden;
+  width: auto;
+  background-color:whitesmoke;
+  position: sticky;
+  top: 0px;
+}
+/* Styling untuk link yang berada pada navigation bar */
+.topnav a {
+    padding:8px 16px;
+    float:left;
+    text-align:center;
+    border:none;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+/* Berganti warna ketika di tunjuk kursor AKA Hover */
+.topnav a:hover {
+    background-color: lightgray;
+}
+
+.quote{
+  font-size: 30px;
+  margin-right: 200px;
+}
+
+.container{
+  margin: 0;
+}
+
+.footer {
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(/img/river.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    height: 250px;  
+    width: 100%;
+    margin-top: 500px;
+    background-size: cover;
+}
+
+.contact ,.regist{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: solid;
+    font-weight: bold;
+    height: 250px;  
+    width: 100%;
+    margin-top: 50px;
+}
+.register{
+  text-align: center;
+    font-size: 40px;
+    text-decoration: solid;
+    font-weight: bold;
+    height: 250px;  
+    width: 100%;
+    margin-top: 50px;
+}
+.contact-desc{
+  font-size: 25;
+}
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  border: 1px solid lightgray;
+  outline: none;
+  background-color: white;
+  
+}
+
+input[type=text]:focus {
+  border: 1px solid gray;
+}
+
+input[type=email] {
+  width: 50%;
+  padding: 12px 20px;
+  border: 1px solid lightgray;
+  outline: none;
+  background-color: white;
+}
+
+input[type=email]:focus {
+  border: 1px solid gray;
+}
+
+input[type=submit]{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+  float: center;
+}
+input[type=submit]:hover {
+  background-color: lightgreen;
+}
+button{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+button:hover{
+   background-color: lightgreen;
+}
+.vmbox{
+    width: 70%;
+    margin-left: 13%;
+    padding: 20px;
+    background-color: snow;
+    box-shadow: 4px 4px 4px lightgrey;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.vmbox p{
+  font-size: 40;
+}
+
+.achievebox{
+    width: 50%;
+    margin-top: 500px;
+    padding: 20px;
+    background-color: snow;
+    box-shadow: 4px 4px 4px lightgrey;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 23%;
+}
+
+.achievement{
+    padding: 20px;
+    background-color: snow;
+    box-shadow: 4px 4px 4px lightgrey;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+}
+
+.achievement:hover{
+  background-color: green;
+  color: white;
+}
